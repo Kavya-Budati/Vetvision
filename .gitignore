@@ -1,0 +1,23 @@
+# Frontend dependencies and build output
+node_modules/
+dist/
+
+# Backend build output
+backend/target/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+application-local.properties
+
+# Java crash and replay logs
+hs_err_pid*.log
+replay_pid*.log
+*.hprof
+
+# IDE and operating system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
